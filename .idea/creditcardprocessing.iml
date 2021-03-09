@@ -25,7 +25,10 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="creditcardprocessing" />
+          <factory-entry name="entityManagerFactory" value="30da5fb8-334f-4d25-ba73-9b9d5fc3beaa" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
